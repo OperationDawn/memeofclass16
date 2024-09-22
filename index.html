@@ -2,7 +2,6 @@
         <title>高三16梗百科</title>
     </head>
     <meta charset="UTF-8">
-    <title>OpDawn</title>
     <style>
         /* 加上 -webkit- 注意兼容 */
         h2 {
@@ -75,8 +74,33 @@
             -webkit-animation: flowCss 4s infinite linear;
         }
     </style>
+
     <body background="https://cdn.pixabay.com/photo/2024/01/02/20/13/dry-8483913_1280.jpg">
         <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+        <script type="text/javascript">
+            function show_runtime() {
+                window.setTimeout("show_runtime()", 1000);
+                X = new Date("9/21/2024 10:28:00");
+                Y = new Date();
+                T = (Y.getTime() - X.getTime());
+                M = 24 * 60 * 60 * 1000;
+                a = T / M;
+                A = Math.floor(a);
+                b = (a - A) * 24;
+                B = Math.floor(b);
+                c = (b - B) * 60;
+                C = Math.floor((b - B) * 60);
+                D = Math.floor((c - C) * 60);
+                runtime_span.innerHTML = "本站已运行 " + A + "天" + B + "小时" + C + "分" + D + "秒"
+            }
+            show_runtime();
+        </script>
+        
+        <span id="runtime_span"></span>
+        <br>
+        <script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
+        <br>
+
         <img width="50" height="50" src="https://img03.sogoucdn.com/v2/thumb/retype_exclude_gif/ext/auto/q/85?appid=200698&url=https://pic.baike.soso.com/ugc/baikepic2/0/20240506130640-524442197_jpeg_640_640_79464.jpg/800">
         <h1>欢迎来到高三16班梗百科</h1>
         <p>站长正在不断完善此网站内容，由于前端开发经验有限故界面暂时简陋</p>
