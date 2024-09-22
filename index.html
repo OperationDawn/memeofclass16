@@ -1,149 +1,130 @@
 <head>
-        <title>高三16梗百科</title>
-    </head>
-    <meta charset="UTF-8">
-    <style>
-        /* 加上 -webkit- 注意兼容 */
-        h2 {
-            background: -webkit-linear-gradient(135deg,
-                    #0eaf6d,
-                    #ff6ac6 25%,
-                    #147b96 50%,
-                    #e6d205 55%,
-                    #2cc4e0 60%,
-                    #8b2ce0 80%,
-                    #ff6384 95%,
-                    #08dfb4);
-            /* 文字颜色填充设置为透明 */
-            -webkit-text-fill-color: transparent;
-            /* 背景裁剪，即让文字使用背景色 */
-            -webkit-background-clip: text;
-            /* 背景图放大一下，看着柔和一些 */
-            -webkit-background-size: 200% 100%;
-            /* 应用动画flowCss 12秒速度 无限循环 线性匀速动画*/
-            -webkit-animation: flowCss 12s infinite linear;
+    <title>高三16梗百科</title>
+</head>
+<meta charset="UTF-8">
+<style>
+    /* 加上 -webkit- 注意兼容 */
+    h2 {
+        background: -webkit-linear-gradient(135deg,
+                #0eaf6d,
+                #ff6ac6 25%,
+                #147b96 50%,
+                #e6d205 55%,
+                #2cc4e0 60%,
+                #8b2ce0 80%,
+                #ff6384 95%,
+                #08dfb4);
+        /* 文字颜色填充设置为透明 */
+        -webkit-text-fill-color: transparent;
+        /* 背景裁剪，即让文字使用背景色 */
+        -webkit-background-clip: text;
+        /* 背景图放大一下，看着柔和一些 */
+        -webkit-background-size: 200% 100%;
+        /* 应用动画flowCss 12秒速度 无限循环 线性匀速动画*/
+        -webkit-animation: flowCss 12s infinite linear;
+    }
+
+    @-webkit-keyframes flowCss {
+        0% {
+            /* 移动背景位置 */
+            background-position: 0 0;
         }
 
-        @-webkit-keyframes flowCss {
-            0% {
-                /* 移动背景位置 */
-                background-position: 0 0;
-            }
-
-            100% {
-                background-position: -400% 0;
-            }
+        100% {
+            background-position: -400% 0;
         }
+    }
 
-        h2:hover {
-            -webkit-animation: flowCss 4s infinite linear;
-        }
-        /* 加上 -webkit- 注意兼容 */
-        h1 {
-            background: -webkit-linear-gradient(135deg,
-                    #0eaf6d,
-                    #ff6ac6 25%,
-                    #147b96 50%,
-                    #e6d205 55%,
-                    #2cc4e0 60%,
-                    #8b2ce0 80%,
-                    #ff6384 95%,
-                    #08dfb4);
-            /* 文字颜色填充设置为透明 */
-            -webkit-text-fill-color: transparent;
-            /* 背景裁剪，即让文字使用背景色 */
-            -webkit-background-clip: text;
-            /* 背景图放大一下，看着柔和一些 */
-            -webkit-background-size: 200% 100%;
-            /* 应用动画flowCss 12秒速度 无限循环 线性匀速动画*/
-            -webkit-animation: flowCss 12s infinite linear;
-        }
+    h2:hover {
+        -webkit-animation: flowCss 4s infinite linear;
+    }
+    /* 加上 -webkit- 注意兼容 */
+    h1 {
+        background: -webkit-linear-gradient(135deg,
+                #0eaf6d,
+                #ff6ac6 25%,
+                #147b96 50%,
+                #e6d205 55%,
+                #2cc4e0 60%,
+                #8b2ce0 80%,
+                #ff6384 95%,
+                #08dfb4);
+        /* 文字颜色填充设置为透明 */
+        -webkit-text-fill-color: transparent;
+        /* 背景裁剪，即让文字使用背景色 */
+        -webkit-background-clip: text;
+        /* 背景图放大一下，看着柔和一些 */
+        -webkit-background-size: 200% 100%;
+        /* 应用动画flowCss 12秒速度 无限循环 线性匀速动画*/
+        -webkit-animation: flowCss 12s infinite linear;
+    }
 
-        @-webkit-keyframes flowCss {
-            0% {
-                /* 移动背景位置 */
-                background-position: 0 0;
-            }
-
-            100% {
-                background-position: -400% 0;
-            }
+    @-webkit-keyframes flowCss {
+        0% {
+            /* 移动背景位置 */
+            background-position: 0 0;
         }
 
-        h1:hover {
-            -webkit-animation: flowCss 4s infinite linear;
+        100% {
+            background-position: -400% 0;
         }
-        body {
-            font-family: Arial, sans-serif;
+    }
+
+    h1:hover {
+        -webkit-animation: flowCss 4s infinite linear;
+    }
+</style>
+<body background="https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <script type="text/javascript">
+        function show_runtime() {
+            window.setTimeout("show_runtime()", 1000);
+            X = new Date("9/21/2024 10:28:00");
+            Y = new Date();
+            T = (Y.getTime() - X.getTime());
+            M = 24 * 60 * 60 * 1000;
+            a = T / M;
+            A = Math.floor(a);
+            b = (a - A) * 24;
+            B = Math.floor(b);
+            c = (b - B) * 60;
+            C = Math.floor((b - B) * 60);
+            D = Math.floor((c - C) * 60);
+            runtime_span.innerHTML = "本站已稳定运行 " + A + "天" + B + "小时" + C + "分" + D + "秒"
         }
-        .search-container {
-            margin: 20px;
-        }
-        .search-input {
-            padding: 10px;
-            width: 300px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        .search-button {
-            padding: 10px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-    </style>
-    <body background="https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-        <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
-        <script type="text/javascript">
-            function show_runtime() {
-                window.setTimeout("show_runtime()", 1000);
-                X = new Date("9/21/2024 10:28:00");
-                Y = new Date();
-                T = (Y.getTime() - X.getTime());
-                M = 24 * 60 * 60 * 1000;
-                a = T / M;
-                A = Math.floor(a);
-                b = (a - A) * 24;
-                B = Math.floor(b);
-                c = (b - B) * 60;
-                C = Math.floor((b - B) * 60);
-                D = Math.floor((c - C) * 60);
-                runtime_span.innerHTML = "本站已稳定运行 " + A + "天" + B + "小时" + C + "分" + D + "秒"
-            }
-            show_runtime();
-        </script>
+        show_runtime();
+    </script>
+    
+    <span id="runtime_span"></span>
+    <br>
+    <script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
+    <h1>欢迎来到高三16班梗百科（V0.4）</h1>
+    <p>站长正在不断完善此网站内容，由于前端开发经验有限故界面暂时简陋</p>
+    <p>本站仅供娱乐，无刻意抹黑，如有侵犯个人权益请及时联系站长删除</p>
+    <p>20240922更新：对梗的内容进行重新审核，删除部分不适宜内容
+    <br>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="https://music.163.com/outchain/player?type=0&id=12633676168&auto=1&height=90"></iframe>
+    <br>
+    <h1>人物：唐同学/教皇</h1>
+         <h2>三清但是轻易地，巨制随云入九天。险径逶迤接栈道，大峰壁立借雾翻。司春神女应故意，怪蟒出山待客还。各处青松皆俯首，笑迎四海旅人世。
+                “清绝尘嚣天下无双福地，高凌云汉江南第一仙峰”巨蟒峰与仙人指路印象尤为深刻，不过这个一指朝天，我更倾向于仙人在鄙视你。</p>
+    <br>
+    <br>
+    <h1>人物：李X臻</h1>
+        <h2>疯狂解法</h2>
+            <p>出自李同学在数学晚课上解题并称自己的解法很疯狂，与丰矿王座共同搭配</p>
+        <h2>沙滩穿搭</h2>
+            <p>李同学在晚自习的出场装扮总是沙滩裤与拖鞋</p>
+        <h2>老大再世</h2>
+            <p>李同学酷爱使用科比技能肘击</p>
+        <h2>魔法唤醒</h2>
+            <p>李同学可以使用魔法响指唤醒其熟睡的同桌王同学</p>
+        <h2>抱头</h2>
+        <p>经典，无需多言</p>
+        <h2>嘿嘿/嘻嘻（投稿）</h2>
+        <p>嘿嘿嘿嘿嘿嘻嘻嘻嘻嘻嘿嘿嘿嘿嘿嘻嘻嘻嘻嘻嘿嘿嘿嘿嘿嘻嘻嘻嘻嘻嘿嘿嘿嘿嘿嘻嘻嘻嘻嘻</p>
+        <h2>Genius</h2>
+        <p>Genius!</p>
         
-        <span id="runtime_span"></span>
-        <br>
-        <script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
-        <h1>欢迎来到高三16班梗百科（V0.4）</h1>
-        <p>站长正在不断完善此网站内容，由于前端开发经验有限故界面暂时简陋</p>
-        <p>本站仅供娱乐，无刻意抹黑，如有侵犯个人权益请及时联系站长删除</p>
-        <p>20240922更新：对梗的内容进行重新审核，删除部分不适宜内容
-        <div class="search-container">
-            <input type="text" class="search-input" placeholder="输入密码...">
-            <button class="search-button">确认</button>
-        </div>
-        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="https://music.163.com/outchain/player?type=0&id=12633676168&auto=1&height=90"></iframe>
-        <br>
-        <h1>人物：唐同学/教皇</h1>
-             <h2>三清但是轻易地，巨制随云入九天。险径逶迤接栈道，大峰壁立借雾翻。司春神女应故意，怪蟒出山待客还。各处青松皆俯首，笑迎四海旅人世。
-                    “清绝尘嚣天下无双福地，高凌云汉江南第一仙峰”巨蟒峰与仙人指路印象尤为深刻，不过这个一指朝天，我更倾向于仙人在鄙视你。</p>
-        <br>
-        <br>
-        <h1>人物：李X臻</h1>
-            <h2>疯狂解法</h2>
-                <p>出自李同学在数学晚课上解题并称自己的解法很疯狂，与丰矿王座共同搭配</p>
-            <h2>沙滩穿搭</h2>
-                <p>李同学在晚自习的出场装扮总是沙滩裤与拖鞋</p>
-            <h2>老大再世</h2>
-                <p>李同学酷爱使用科比技能肘击</p>
-            <h2>魔法唤醒</h2>
-                <p>李同学可以使用魔法响指唤醒其熟睡的同桌王同学</p>
-            <h2>抱头</h2>
-            经典，无需多言
-            
-    </body>
+</body>
 </html>
-
