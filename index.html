@@ -73,6 +73,25 @@
         h1:hover {
             -webkit-animation: flowCss 4s infinite linear;
         }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .search-container {
+            margin: 20px;
+        }
+        .search-input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
     </style>
     <body background="https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
         <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
@@ -98,9 +117,13 @@
         <span id="runtime_span"></span>
         <br>
         <script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
-        <h1>欢迎来到高三16班梗百科（V0.3）</h1>
+        <h1>欢迎来到高三16班梗百科（V0.2）</h1>
         <p>站长正在不断完善此网站内容，由于前端开发经验有限故界面暂时简陋</p>
         <p>本站仅供娱乐，无刻意抹黑，如有侵犯个人权益请及时联系站长删除</p>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="输入密码...">
+            <button class="search-button">确认</button>
+        </div>
         <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="https://music.163.com/outchain/player?type=0&id=12633676168&auto=1&height=90"></iframe>
         <br>
         <h1>人物：唐Y君</h1>
@@ -154,3 +177,4 @@
             
     </body>
 </html>
+
